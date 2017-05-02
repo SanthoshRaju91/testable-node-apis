@@ -1,4 +1,4 @@
-##Node API pattern
+## Node API pattern
 
 This is one of the patterns followed to write testable API's using node. This pattern is used to build API's based on application module behaviour, meaning the API's are built on specific to each module in the application and are structured / consolidated according to their module.
 
@@ -21,6 +21,6 @@ Setup instructions
 * To run the test cases `npm run test`
 * To run the application `npm run dev`
 
-##Note: This example connects to mlab mongoDB database, have your network connection to run the example.
+## Note: This example connects to mlab mongoDB database, have your network connection to run the example.
 
  
