@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 export default () => {
   mongoose.Promise = global.Promise;
-  mongoose.connect('mongodb://root:root@ds127958.mlab.com:27958/frontendstack');
+  mongoose.connect('mongodb://0.0.0.0:27017/frontendstack');
 
   mongoose.connection
     .once('open', () => console.log('MongoDB running'))
